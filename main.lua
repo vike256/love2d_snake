@@ -77,7 +77,7 @@ function love.update(dt)
         end
     else
         if love.keyboard.isDown('space') then
-            alive = true
+            start()
         end
     end
 end
